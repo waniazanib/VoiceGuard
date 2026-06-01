@@ -1,0 +1,6 @@
+{
+  "name": "VoiceGuard",
+  "description": "Acoustic Deepfake & Voice Spoofing Detector using CQT features and ResNet-18 with ONNX optimization.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

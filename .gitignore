@@ -1,0 +1,16 @@
+node_modules/
+Dataset/
+saved_models/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+npm-debug.log*
+*.tsbuildinfo
+.env*
+.venv/
+venv/
+__pycache__/
+*.pyc
+!.env.example
