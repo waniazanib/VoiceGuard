@@ -93,7 +93,7 @@ python train.py
 
 **Requirements:**
 - Kaggle credentials at `~/.kaggle/kaggle.json`
-- 8GB+ GPU memory (or CPU fallback, slower)
+- 24GB+ GPU memory (or CPU fallback, slower)
 
 ### ONNX Export
 ```bash
