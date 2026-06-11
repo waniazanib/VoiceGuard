@@ -27,7 +27,7 @@ VoiceGuard is a production-ready acoustic deepfake classifier designed for live 
 
 ## Demo
 
-![VoiceGuard Demo](src\assets\demo.gif)
+![VoiceGuard Demo](src/assets/demo.gif)
 
 ---
 
@@ -213,6 +213,14 @@ Softmax Output → BONAFIDE vs SPOOF
 - **GradCAM**: Backpropagation-based heatmap showing decision-critical time-frequency regions
 - **ONNX FP16**: Quantized model for embedded & edge deployment
 
+
+### GradCAM Explanation Example
+
+| Real Voice | Spoofed Voice |
+|---|---|
+| ![Real](src/assets/real.gif) | ![Fake](src/assets/fake.gif) |
+
+*Heatmap highlights the time-frequency regions the model uses to make its decision.*
 ---
 
 ## Future Improvements
