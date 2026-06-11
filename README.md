@@ -1,6 +1,13 @@
-# VoiceGuard
+![VoiceGuard Banner](src/assets/banner.png)
 
 **AI-Powered Acoustic Deepfake & Voice Spoofing Detection Engine**
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.1-orange)
+![ONNX](https://img.shields.io/badge/ONNX-FP16-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![EER](https://img.shields.io/badge/EER-5.4%25-brightgreen)
+
 
 VoiceGuard is a production-ready acoustic deepfake classifier designed for live voice authentication, recruitment verification, and identity protection. Using a modified ResNet-18 CNN with Constant-Q Transform (CQT) spectrograms, it achieves fast, accurate detection of synthetic and spoofed voices with explainable predictions via GradCAM heatmaps.
 
@@ -15,6 +22,12 @@ VoiceGuard is a production-ready acoustic deepfake classifier designed for live 
 - **Graceful Fallback**: Heuristic demo mode using spectral analysis when models unavailable
 - **Dual Interface**: Gradio web UI + TypeScript/React backend server
 - **Production-Ready**: ONNX FP16 export for lightweight CPU inference
+
+---
+
+## Demo
+
+![VoiceGuard Demo](src\assets\demo.gif)
 
 ---
 
@@ -173,6 +186,8 @@ VoiceGuard/
 | AASIST (SOTA) | 0.3M | 0.83% | 45ms | Reference only |
 
 **EER Definition**: Equal Error Rate where False Acceptance Rate (FAR) = False Rejection Rate (FRR). Lower is better.
+
+> ⚠️ AASIST is a dedicated SOTA model included as a research reference. VoiceGuard prioritizes speed and explainability for production use cases.
 
 ---
 
